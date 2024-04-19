@@ -74,7 +74,7 @@ def crawl_docs(url: str,
       # edges_file.write(link + '\n')
   except Exception as e:
     print(f"Failed to process URL {url}: {e}")
-  df.columns = ['text']
+  # df.columns = ['text']
   return df
 
 
